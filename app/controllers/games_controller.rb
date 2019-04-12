@@ -1,5 +1,5 @@
 class GamesController < ApplicationController
     def index
-       @games = ["Lego Batman", "Mario Brothers", "Doom", "another game"] 
+       @games = Game.all 
     end
 end
